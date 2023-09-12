@@ -1,2 +1,4 @@
 how many states a promise in javascript have?
 how can I list directories whose name start with the letter "a" by command in linux?
+how can I commit git without message?
+what is generator in javascript?
