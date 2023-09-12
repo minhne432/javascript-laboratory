@@ -1,6 +1,6 @@
 // The keyword async before a function makes the function return a promise:
 
-async function myfunction(data) {
+ async function myfunction(data) {
     if (data < 0) {
         return 'number lower than 0'
     } else {
