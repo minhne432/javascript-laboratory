@@ -37,3 +37,6 @@ employees.push(employeeFactory.create("Khanh", 1));
 employees.forEach((element) => {
   say.call(element);
 });
+
+console.log("***********");
+console.log(employees);
