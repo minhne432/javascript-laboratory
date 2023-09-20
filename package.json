@@ -15,9 +15,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "test1":"node .\\TEXT\\test1.js",
-    "test2":"node .\\TEXT\\test2.js",
-    "test3":"node .\\TEXT\\test3.js"
+    "test1":"node .\\TEST\\test1.js",
+    "test2":"node .\\TEST\\test2.js",
+    "test3":"node .\\TEST\\test3.js"
 
   },
   "author": "",

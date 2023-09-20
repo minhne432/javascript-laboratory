@@ -1,8 +1,2 @@
-function a() {
-  console.log("hello!");
-}
-
-const b = [];
-
-console.log(toString(b));
-console.log(toString.call(b));
+const typeOF = require("TOOLS/typeOF");
+typeOF("1234");

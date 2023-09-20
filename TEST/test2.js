@@ -1,9 +1,36 @@
-function employee(name, jobtitle, born) {
-  this.name = name;
-  this.jobtitle = jobtitle;
-  this.born = born;
-}
-employee.prototype.salary = 2000;
+// trạng thái của promise
+//1. pendding (chờ, rò rỉ bộ nhớ)
+//2. fulfilled (hoàn thành)
+//3. reject (thất bại)
 
-const fred = new employee("Fred Flintstone", "Caveman", 1970);
-console.log(fred.salary);
+//terminologies
+//Promise chain => giải quyết callback hell
+// truyền giá trị từ resolve(), reject() đến then() và catch()
+// truyền giá trị từ then() ở trên đến then() ở dưới
+
+var promise = new Promise((resolve, reject) => {
+  //<---- excutor
+  var err = 0;
+  if (err) {
+    resolve(0); // <----- success : call resolve()
+  } else {
+    reject("We have an error");
+    err += 1; // <----- fail: call reject()
+  }
+})
+  .then(() => {
+    console.log("this is then");
+  })
+  .catch(() => {
+    console.log("catch 1");
+  });
+
+promise
+  .then((data) => {
+    console.log("this is then 2");
+  })
+  .catch(() => {
+    console.log("catch 2");
+  });
+
+console.log(typeof promise);
