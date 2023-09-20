@@ -7,4 +7,5 @@ function employee(name, jobtitle, born) {
 employee.prototype.salary = 2000;
 
 const fred = new employee("Fred Flintstone", "Caveman", 1970);
+console.log(fred);
 console.log(fred.salary);

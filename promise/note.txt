@@ -1,3 +1,0 @@
-~dùng promise chain để giải quyết callback hell
-~dùng promise.all() để thực hiện công việc mà cần chạy nhiều thao tác song song, và công việc chỉ được
-thực hiện khi tất cả các thao tác thành công

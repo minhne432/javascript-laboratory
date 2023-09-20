@@ -1,1 +1,0 @@
-https://www.knowledgehut.com/blog/web-development/node-js-global-variables

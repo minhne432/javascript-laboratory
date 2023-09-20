@@ -1,5 +1,5 @@
 const typeOF = require("../tools/typeOF");
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-let text = fruits.join(" and ");
+const fruits = ["Banana", "Orange", "Apple", "Mango"]; //array
+let text = fruits.join(" , "); //String
 console.log(text);
-console.log(typeOF(text));
+typeOF(text);
