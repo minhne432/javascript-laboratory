@@ -17,7 +17,8 @@
     "start": "node index.js",
     "test1":"node .\\TEST\\test1.js",
     "test2":"node .\\TEST\\test2.js",
-    "test3":"node .\\TEST\\test3.js"
+    "test3":"node .\\TEST\\test3.js",
+    "test4":"node .\\TEST\\test4.js"
 
   },
   "author": "",
